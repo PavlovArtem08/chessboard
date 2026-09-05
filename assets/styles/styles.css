@@ -1,0 +1,26 @@
+* {
+    /* определяет,
+    как именно вычисляются общая ширина и высота элемента — включаются ли внутренние отступы */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.chessboard {
+    width: 800px;
+    height: 800px;
+    border: 10px solid;
+    font-size: 0;
+}
+
+.panel {
+    display: inline-block;
+    width: 25%;
+    height: 25%;
+    background: black;
+    font-size: 30px;
+}
+
+.white-panel {
+    opacity: 0;
+}
